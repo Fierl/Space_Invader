@@ -22,6 +22,7 @@ public class EnemyShotController : MonoBehaviour
         if (controller != null)
         {
             controller.ChangeHealth(-1);
+            Destroy(gameObject);
         }
     }
 
